@@ -49,7 +49,7 @@ select
     s.has_edi_tracking,
     s.contracted_load,
     s.load_booked_autonomously,
-    s.load_booked_autonomously,
+    s.load_sourced_autonomously,
     s.load_was_cancelled,
     '' as lane_id,
     '' as carrier_id,
